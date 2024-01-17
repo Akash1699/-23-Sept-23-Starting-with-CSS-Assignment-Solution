@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Solution1</title>
+    <style>
+       .internal{
+        color: green;
+       } 
+       .inline_internal{
+        color: red;
+       }
+       .internal_ext{
+        color: brown;
+       }
+       .inline_internal_external{
+        color: aqua;
+       }
+    </style>
+</head>
+<body>
+    <div style="color: red;">Inline </div>
+    <div class="internal">Internal</div>
+    <div class="external">External</div>
+    <div style="color: blueviolet;" class="inline_internal">Inline + Internal</div>
+    <div class="int_external internal_ext">Internal + External</div>
+    <div style="color: blueviolet;" class="inline_internal_external">Inline + Intetrnal + External</div>   
+</body>
+</html>
